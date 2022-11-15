@@ -3,6 +3,32 @@
 
 <head>
     <title>CSS Flex</title>
+    <style>
+        main {
+            border:2px solid green;
+            
+        }
+        .flex-container {
+            display:flex;
+            justify-content:center;
+            align-content: center;
+            align-items: center;
+            border: 2px dashed purple;
+            flex-flow: wrap;
+            width:500px;
+            margin:auto;
+            margin-bottom: 100px;
+
+        }
+        .flex-container > div {
+                    background-color: pink;
+                    font-size: 30px;
+                    color:blue;
+                    border: 1px solid red;
+                    padding: 30px;
+                    margin: 20px;
+                }
+    </style>
 </head>
 
 <body>
